@@ -7,7 +7,7 @@ class Solution:
             sum+=i
             if sum <= coins:
                 result+=1
-            if sum == coins:
+            else:
                 break
         return int(result)
         
