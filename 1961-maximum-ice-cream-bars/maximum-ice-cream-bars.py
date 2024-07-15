@@ -9,5 +9,5 @@ class Solution:
                 result+=1
             else:
                 break
-        return int(result)
+        return result
         
